@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     {
         // 게임 오브젝트에서 Rigidbody 컴포넌트를 찾아 playerRigidbody에 할당
         playerRigidbody = GetComponent<Rigidbody>();
+        playerRigidbody.AddForce(Vector3.up * 15);
     }
 
     void Update()
@@ -26,6 +27,8 @@ public class PlayerController : MonoBehaviour
         Vector3 newVelocity = new Vector3(xSpeed, 0f, zSpeed);
         // 리지드바디의 속도에 newVelocity 할당
         playerRigidbody.velocity = newVelocity;
+
+
     }
 
     public void Die()
