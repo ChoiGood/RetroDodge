@@ -13,7 +13,7 @@
 <https://choi-good.tistory.com>
 
 ## 실행 화면
-
+<img src="https://github.com/ChoiGood/RetroDodge/assets/128384646/4e9ed48a-49b1-47ba-aed0-434259d3cbcc">
 
 
 
